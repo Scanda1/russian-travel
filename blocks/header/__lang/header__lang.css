@@ -4,4 +4,13 @@
     margin: 0;
     display: flex;
     align-self: flex-end;
+
 }
+
+@media screen and (max-width: 320px) {
+  .header__lang {
+    transform:translate(0px,-4px);
+  }
+}
+
+
